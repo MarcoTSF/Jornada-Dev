@@ -107,3 +107,38 @@ body{
     font-size: 18px;
     color: black;
 }
+
+.experience-contents,
+.education-contents,
+.awards-contents{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: black;
+}
+
+.experience-company-name,
+.education-school-name,
+.awards-company-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience-time-period,
+.education-time-period,
+.awards-time{
+    font-size: 25px;
+}
+
+.experience-position,
+.education-subject,
+.awards-name{
+    font-size: 25px;
+}
+
+.experience-description,
+.education-description,
+.awards-description{
+    font-size: 16px;
+    padding-left: 5px;
+}
