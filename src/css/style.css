@@ -37,17 +37,17 @@ body{
 
 .profile{
     width: 100%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(61, 60, 60);
 }
 
 .profile .profile-image{
     width: 100%;
     border-radius: 50%;
-    border: 8px solid white;
+    border: 8px solid rgb(61, 60, 60);
 }
 
 .name{
-    color: #D6DBDF;
+    color: white;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -155,7 +155,7 @@ body{
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #F1F8FD;
+    color: black;
 }
 
 .experience-contents,
@@ -164,7 +164,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: black;
 }
 
 .experience-company-name,
