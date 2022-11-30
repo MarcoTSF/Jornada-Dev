@@ -10,6 +10,11 @@ body{
     background-color: rgb(61, 60, 60);
 }
 
+a{
+    text-decoration: none;
+    color: #2f48d3;
+}
+
 .resume-contents{
     min-height: 100vh;
     width: 80%;
@@ -97,7 +102,7 @@ body{
 .references ul li i{
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #FDB44B;
 }
 
 .skills ul{
@@ -206,6 +211,7 @@ body{
     line-height: 1.5rem;
     border-left: 3px solid #a5a3a3;
     padding-left: 5px;
+    margin-bottom: 7%;
 }
 
 /* Media queries */
