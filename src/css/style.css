@@ -237,7 +237,7 @@ a:hover{
     }
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1355px){
     .resume-contents{
         grid-template-columns: repeat(1, 1fr);
     }
